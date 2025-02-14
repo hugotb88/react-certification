@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Before start
+
+Is something is not working after `npx create-react-app react-certification`\, then:\
+`npm install --save-dev @testing-library/react@latest`\
+`npm install web-vitals`\
+
+
 ## Available Scripts
 
 In the project directory, you can run:
