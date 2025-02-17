@@ -28,4 +28,4 @@ const updateMyVehicle = {
 // Combinated.
 const myUpdateVehicle = {...myVehicle, ...updateMyVehicle};
 
-console.log(myUpdateVehicle);
+console.log(myUpdateVehicle); //It contains both attributes, besides, the color is overwritten with yellow instead of red.
