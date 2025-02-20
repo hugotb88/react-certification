@@ -9,6 +9,7 @@ import Home from "./React/Router/Home";
 import Football from "./React/Events/Football";
 import Car from './React/Lists/Car';
 import Garage from './React/Lists/Garage';
+import GarageKeyExample from './React/Lists/GarageKeyExample';
 /*
 
 We wrap our content first with <BrowserRouter>.
@@ -29,6 +30,7 @@ export default function App() {
                     <Route path="contact" element={ <Contact /> } />
                     <Route path="events" element={ <Football /> } />
                     <Route path="lists" element={ <Garage /> } />
+                    <Route path="keys" element={ <GarageKeyExample /> } />
                     <Route path="*" element={ <NoPage /> } />
                 </Route>
             </Routes>

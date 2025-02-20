@@ -28,6 +28,9 @@ const Layout = () => {
           <li>
             <Link to="/lists">Lists on React</Link>
           </li>
+          <li>
+            <Link to="/keys">Keys on React</Link>
+          </li>
         </ul>
       </nav>
 

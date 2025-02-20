@@ -22,3 +22,12 @@ function Garage() {
         </>
     );
 }
+
+
+/*
+
+    Keys allow React to keep track of elements. This way, if an item is updated or removed, only that item will be re-rendered instead of the entire list.
+    Keys need to be unique to each sibling. But they can be duplicated globally.
+    Generally, the key should be a unique ID assigned to each item. As a last resort, you can use the array index as a key.
+    
+*/
