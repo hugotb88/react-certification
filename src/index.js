@@ -7,9 +7,10 @@ import Contact from "./React/Router/Contact";
 import NoPage from "./React/Router/NoPage";
 import Home from "./React/Router/Home";
 import Football from "./React/Events/Football";
-import Car from './React/Lists/Car';
 import Garage from './React/Lists/Garage';
 import GarageKeyExample from './React/Lists/GarageKeyExample';
+import MyForm from './React/Forms/MyForm';
+import MyformSubmit from './React/Forms/MyFormSubmit';
 /*
 
 We wrap our content first with <BrowserRouter>.
@@ -31,6 +32,8 @@ export default function App() {
                     <Route path="events" element={ <Football /> } />
                     <Route path="lists" element={ <Garage /> } />
                     <Route path="keys" element={ <GarageKeyExample /> } />
+                    <Route path="formBasic" element={ <MyForm /> } />
+                    <Route path="formSubmit" element={ <MyformSubmit /> } />
                     <Route path="*" element={ <NoPage /> } />
                 </Route>
             </Routes>

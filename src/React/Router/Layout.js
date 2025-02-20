@@ -31,6 +31,12 @@ const Layout = () => {
           <li>
             <Link to="/keys">Keys on React</Link>
           </li>
+          <li>
+            <Link to="/formBasic">Basic Form</Link>
+          </li>
+          <li>
+            <Link to="/formSubmit">Submit Form</Link>
+          </li>
         </ul>
       </nav>
 
