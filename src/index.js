@@ -7,7 +7,8 @@ import Contact from "./React/Router/Contact";
 import NoPage from "./React/Router/NoPage";
 import Home from "./React/Router/Home";
 import Football from "./React/Events/Football";
-
+import Car from './React/Lists/Car';
+import Garage from './React/Lists/Garage';
 /*
 
 We wrap our content first with <BrowserRouter>.
@@ -27,10 +28,12 @@ export default function App() {
                     <Route path="blogs" element={ <Blogs /> } />
                     <Route path="contact" element={ <Contact /> } />
                     <Route path="events" element={ <Football /> } />
+                    <Route path="lists" element={ <Garage /> } />
                     <Route path="*" element={ <NoPage /> } />
                 </Route>
             </Routes>
         </BrowserRouter>
+        
     );
 }
 
