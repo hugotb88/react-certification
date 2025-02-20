@@ -11,6 +11,7 @@ import Garage from './React/Lists/Garage';
 import GarageKeyExample from './React/Lists/GarageKeyExample';
 import MyForm from './React/Forms/MyForm';
 import MyformSubmit from './React/Forms/MyFormSubmit';
+import MyFormMultipleFields from './React/Forms/MyFormMultipleFields';
 /*
 
 We wrap our content first with <BrowserRouter>.
@@ -34,6 +35,7 @@ export default function App() {
                     <Route path="keys" element={ <GarageKeyExample /> } />
                     <Route path="formBasic" element={ <MyForm /> } />
                     <Route path="formSubmit" element={ <MyformSubmit /> } />
+                    <Route path="formMultipleFields" element={ <MyFormMultipleFields /> } />
                     <Route path="*" element={ <NoPage /> } />
                 </Route>
             </Routes>

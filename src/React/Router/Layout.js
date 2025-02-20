@@ -37,6 +37,9 @@ const Layout = () => {
           <li>
             <Link to="/formSubmit">Submit Form</Link>
           </li>
+          <li>
+            <Link to="/formMultipleFields">Submit Form with Multiple Fields</Link>
+          </li>
         </ul>
       </nav>
 
