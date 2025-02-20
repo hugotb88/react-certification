@@ -6,7 +6,7 @@ import Blogs from "./Router/Blog";
 import Contact from "./Router/Contact";
 import NoPage from "./Router/NoPage";
 import Home from "./Router/Home";
-
+import Football from "./Events/Football";
 
 /*
 
@@ -18,8 +18,6 @@ The Home component route does not have a path but has an index attribute. That s
 Setting the path to * will act as a catch-all for any undefined URLs. This is great for a 404 error page.
 
 */
-
-
 export default function App() {
     return (
         <BrowserRouter>
@@ -28,6 +26,7 @@ export default function App() {
                     <Route index element={ <Home /> } />
                     <Route path="blogs" element={ <Blogs /> } />
                     <Route path="contact" element={ <Contact /> } />
+                    <Route path="events" element={ <Football /> } />
                     <Route path="*" element={ <NoPage /> } />
                 </Route>
             </Routes>
