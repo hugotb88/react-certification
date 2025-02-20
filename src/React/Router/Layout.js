@@ -40,6 +40,9 @@ const Layout = () => {
           <li>
             <Link to="/formMultipleFields">Submit Form with Multiple Fields</Link>
           </li>
+          <li>
+            <Link to="/formTextarea">Form with Textarea attribute</Link>
+          </li>
         </ul>
       </nav>
 
