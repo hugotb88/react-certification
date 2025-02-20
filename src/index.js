@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Layout from "./Router/Layout";
-import Blogs from "./Router/Blog";
-import Contact from "./Router/Contact";
-import NoPage from "./Router/NoPage";
-import Home from "./Router/Home";
-import Football from "./Events/Football";
+import Layout from "./React/Router/Layout";
+import Blogs from "./React/Router/Blog";
+import Contact from "./React/Router/Contact";
+import NoPage from "./React/Router/NoPage";
+import Home from "./React/Router/Home";
+import Football from "./React/Events/Football";
 
 /*
 
