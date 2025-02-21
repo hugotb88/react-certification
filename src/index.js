@@ -13,6 +13,9 @@ import MyForm from './React/Forms/MyForm';
 import MyformSubmit from './React/Forms/MyFormSubmit';
 import MyFormMultipleFields from './React/Forms/MyFormMultipleFields';
 import FormTextarea from './React/Forms/TextArea';
+import FormSelect from './React/Forms/Select';
+import { CSSInline } from './React/Styling/CSSInline';
+import { CSSJavaScriptObject } from './React/Styling/CSSJavaScriptObject';
 /*
 
 We wrap our content first with <BrowserRouter>.
@@ -38,6 +41,9 @@ export default function App() {
                     <Route path="formSubmit" element={ <MyformSubmit /> } />
                     <Route path="formMultipleFields" element={ <MyFormMultipleFields /> } />
                     <Route path="formTextarea" element={ <FormTextarea /> } />
+                    <Route path="formSelect" element={ <FormSelect /> } />
+                    <Route path="CSSInline" element={ <CSSInline /> } />
+                    <Route path="CSSJavaScriptObject" element={ <CSSJavaScriptObject /> } />
                     <Route path="*" element={ <NoPage /> } />
                 </Route>
             </Routes>

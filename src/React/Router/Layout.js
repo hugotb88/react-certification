@@ -43,6 +43,15 @@ const Layout = () => {
           <li>
             <Link to="/formTextarea">Form with Textarea attribute</Link>
           </li>
+          <li>
+            <Link to="/formSelect">Form with Select (dropdown)</Link>
+          </li>
+          <li>
+            <Link to="/cssInline">CSS Inline</Link>
+          </li>
+          <li>
+            <Link to="/cssJavaScriptObject">CSS using JavaScript Object</Link>
+          </li>
         </ul>
       </nav>
 
