@@ -20,6 +20,8 @@ import './React/Styling/exampleStylesheet.css';
 import { CarWithCSSModule } from './React/Styling/CarWithCSSModule';
 import { HeaderWithSASS } from './React/Styiling_SASS/HeaderWithSASS';
 import CarUseState  from './React/Hooks/useState_example';
+import Timer from './React/Hooks/useEffects_example';
+import Counter from './React/Hooks/useEffect_example_2';
 /*
 
 We wrap our content first with <BrowserRouter>.
@@ -50,7 +52,9 @@ export default function App() {
                     <Route path="CSSJavaScriptObject" element={ <CSSJavaScriptObject /> } />
                     <Route path="cssModule" element={ <CarWithCSSModule /> } />
                     <Route path="headerWithSASS" element={ <HeaderWithSASS /> } />
-                    <Route path="carUseState" element={ <CarUseState /> } />
+                    <Route path="useStateExample" element={ <CarUseState /> } />
+                    <Route path="useEffectExample" element={ <Timer /> } />
+                    <Route path="useEffectExample2" element={ <Counter /> } />
                     <Route path="*" element={ <NoPage /> } />
                 </Route>
             </Routes>

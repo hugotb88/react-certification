@@ -59,7 +59,13 @@ const Layout = () => {
             <Link to="/headerWithSASS">SASS Example</Link>
           </li>
           <li>
-            <Link to="/carUseState">Hook useState example</Link>
+            <Link to="/useStateExample"> useState Hook example</Link>
+          </li>
+          <li>
+            <Link to="/useEffectExample">useEffect Hook example</Link>
+          </li>
+          <li>
+            <Link to="/useEffectExample2">useEffect Hook dependent of variable example</Link>
           </li>
         </ul>
       </nav>
