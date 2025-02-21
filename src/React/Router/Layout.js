@@ -52,6 +52,9 @@ const Layout = () => {
           <li>
             <Link to="/cssJavaScriptObject">CSS using JavaScript Object</Link>
           </li>
+          <li>
+            <Link to="/cssModule">CSS Module example</Link>
+          </li>
         </ul>
       </nav>
 

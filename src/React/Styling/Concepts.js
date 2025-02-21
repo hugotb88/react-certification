@@ -53,3 +53,17 @@ body {
     font - family: Sans - Serif;
     text - align: center;
 }
+
+// ================== CSS Modules ================ //
+/* 
+    Another way of adding styles to your application is to use CSS Modules.
+    CSS Modules are convenient for components that are placed in separate files.
+    THE CSS INSIDE A MODULE IS AVAILABLE ONLY FOR THE COMPONENT THAT IMPORTED IT, AND YOU DO NOT HAVE TO WORRY ABOUT NAME CONFLICTS.
+    Create the CSS module with the '.module.css' extension, example: 'my-style.module.css.'
+*/
+.bigblue {
+    color: DodgerBlue;
+    padding: 40px;
+    font - family: Sans - Serif;
+    text - align: center;
+}

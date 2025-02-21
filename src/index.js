@@ -17,6 +17,7 @@ import FormSelect from './React/Forms/Select';
 import { CSSInline } from './React/Styling/CSSInline';
 import { CSSJavaScriptObject } from './React/Styling/CSSJavaScriptObject';
 import './React/Styling/exampleStylesheet.css';
+import { CarWithCSSModule } from './React/Styling/CarWithCSSModule';
 /*
 
 We wrap our content first with <BrowserRouter>.
@@ -45,6 +46,7 @@ export default function App() {
                     <Route path="formSelect" element={ <FormSelect /> } />
                     <Route path="CSSInline" element={ <CSSInline /> } />
                     <Route path="CSSJavaScriptObject" element={ <CSSJavaScriptObject /> } />
+                    <Route path="cssModule" element={ <CarWithCSSModule /> } />
                     <Route path="*" element={ <NoPage /> } />
                 </Route>
             </Routes>
