@@ -55,6 +55,9 @@ const Layout = () => {
           <li>
             <Link to="/cssModule">CSS Module example</Link>
           </li>
+          <li>
+            <Link to="/headerWithSASS">SASS Example</Link>
+          </li>
         </ul>
       </nav>
 

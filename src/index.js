@@ -18,6 +18,7 @@ import { CSSInline } from './React/Styling/CSSInline';
 import { CSSJavaScriptObject } from './React/Styling/CSSJavaScriptObject';
 import './React/Styling/exampleStylesheet.css';
 import { CarWithCSSModule } from './React/Styling/CarWithCSSModule';
+import { HeaderWithSASS } from './React/Styiling_SASS/HeaderWithSASS';
 /*
 
 We wrap our content first with <BrowserRouter>.
@@ -47,6 +48,7 @@ export default function App() {
                     <Route path="CSSInline" element={ <CSSInline /> } />
                     <Route path="CSSJavaScriptObject" element={ <CSSJavaScriptObject /> } />
                     <Route path="cssModule" element={ <CarWithCSSModule /> } />
+                    <Route path="headerWithSASS" element={ <HeaderWithSASS /> } />
                     <Route path="*" element={ <NoPage /> } />
                 </Route>
             </Routes>
