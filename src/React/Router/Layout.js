@@ -79,6 +79,9 @@ const Layout = () => {
           <li>
             <Link to="/useRefTrackingStateChanges">userRef Hook tracking state changes between renders example</Link>
           </li>
+          <li>
+            <Link to="/useReducerExample">useReducer example</Link>
+          </li>
         </ul>
       </nav>
 

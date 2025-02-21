@@ -26,6 +26,7 @@ import { Component1 } from './React/Hooks/useContext/Component1';
 import UseRefBasic from './React/Hooks/useRef/useRef_basic';
 import UseRefAccesingDOM from './React/Hooks/useRef/useRef_accesingDOM';
 import UseRefTrackingStateChanges from './React/Hooks/useRef/useRef_trackingStateChanges';
+import UseReducer from './React/Hooks/useReducer/useReducer_example';
 /*
 
 We wrap our content first with <BrowserRouter>.
@@ -63,6 +64,7 @@ export default function App() {
                     <Route path="useRefBasicExample" element={ <UseRefBasic /> } />
                     <Route path="useRefAccesingDOMExample" element={ <UseRefAccesingDOM /> } />
                     <Route path="useRefTrackingStateChanges" element={ <UseRefTrackingStateChanges /> } />
+                    <Route path="useReducerExample" element={ <UseReducer /> } />
                     <Route path="*" element={ <NoPage /> } />
                 </Route>
             </Routes>
