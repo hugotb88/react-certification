@@ -67,6 +67,9 @@ const Layout = () => {
           <li>
             <Link to="/useEffectExample2">useEffect Hook dependent of variable example</Link>
           </li>
+          <li>
+            <Link to="/useContextExample">useContext Hook example</Link>
+          </li>
         </ul>
       </nav>
 
