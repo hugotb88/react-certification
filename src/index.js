@@ -23,6 +23,9 @@ import CarUseState  from './React/Hooks/useState/useState_example';
 import Timer from './React/Hooks/useEffect/useEffects_example';
 import Counter from './React/Hooks/useEffect/useEffect_example_2';
 import { Component1 } from './React/Hooks/useContext/Component1';
+import UseRefBasic from './React/Hooks/useRef/useRef_basic';
+import UseRefAccesingDOM from './React/Hooks/useRef/useRef_accesingDOM';
+import UseRefTrackingStateChanges from './React/Hooks/useRef/useRef_trackingStateChanges';
 /*
 
 We wrap our content first with <BrowserRouter>.
@@ -57,6 +60,9 @@ export default function App() {
                     <Route path="useEffectExample" element={ <Timer /> } />
                     <Route path="useEffectExample2" element={ <Counter /> } />
                     <Route path="useContextExample" element={ <Component1 /> } />
+                    <Route path="useRefBasicExample" element={ <UseRefBasic /> } />
+                    <Route path="useRefAccesingDOMExample" element={ <UseRefAccesingDOM /> } />
+                    <Route path="useRefTrackingStateChanges" element={ <UseRefTrackingStateChanges /> } />
                     <Route path="*" element={ <NoPage /> } />
                 </Route>
             </Routes>

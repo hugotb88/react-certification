@@ -70,6 +70,15 @@ const Layout = () => {
           <li>
             <Link to="/useContextExample">useContext Hook example</Link>
           </li>
+          <li>
+            <Link to="/useRefBasicExample">userRef Hook basic example</Link>
+          </li>
+          <li>
+            <Link to="/useRefAccesingDOMExample">userRef Hook accesing DOM to focus example</Link>
+          </li>
+          <li>
+            <Link to="/useRefTrackingStateChanges">userRef Hook tracking state changes between renders example</Link>
+          </li>
         </ul>
       </nav>
 
