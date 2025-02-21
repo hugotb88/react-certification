@@ -19,9 +19,9 @@ import { CSSJavaScriptObject } from './React/Styling/CSSJavaScriptObject';
 import './React/Styling/exampleStylesheet.css';
 import { CarWithCSSModule } from './React/Styling/CarWithCSSModule';
 import { HeaderWithSASS } from './React/Styiling_SASS/HeaderWithSASS';
-import CarUseState  from './React/Hooks/useState_example';
-import Timer from './React/Hooks/useEffects_example';
-import Counter from './React/Hooks/useEffect_example_2';
+import CarUseState  from './React/Hooks/useState/useState_example';
+import Timer from './React/Hooks/useEffect/useEffects_example';
+import Counter from './React/Hooks/useEffect/useEffect_example_2';
 /*
 
 We wrap our content first with <BrowserRouter>.
