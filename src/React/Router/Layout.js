@@ -82,6 +82,9 @@ const Layout = () => {
           <li>
             <Link to="/useReducerExample">useReducer example</Link>
           </li>
+          <li>
+            <Link to="/useCallbackExample">useCallback example preventing to re render ToDos</Link>
+          </li>
         </ul>
       </nav>
 
