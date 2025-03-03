@@ -83,7 +83,10 @@ const Layout = () => {
             <Link to="/useReducerExample">useReducer example</Link>
           </li>
           <li>
-            <Link to="/useCallbackExample">useCallback example preventing to re render ToDos</Link>
+            <Link to="/useCallbackExample">useCallback example preventing to re render ToDos (returns a memoized function)</Link>
+          </li>
+          <li>
+            <Link to="/useMemoExample">useMeo example preventing to re render an Expensive function ((returns a memoized value))</Link>
           </li>
         </ul>
       </nav>

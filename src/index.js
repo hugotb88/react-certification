@@ -28,6 +28,7 @@ import UseRefAccesingDOM from './React/Hooks/useRef/useRef_accesingDOM';
 import UseRefTrackingStateChanges from './React/Hooks/useRef/useRef_trackingStateChanges';
 import UseReducer from './React/Hooks/useReducer/useReducer_example';
 import UseCallback from './React/Hooks/useCallback/UseCallback';
+import UseMemo from './React/Hooks/useMemo/UseMemo';
 /*
 
 We wrap our content first with <BrowserRouter>.
@@ -67,6 +68,7 @@ export default function App() {
                     <Route path="useRefTrackingStateChanges" element={ <UseRefTrackingStateChanges /> } />
                     <Route path="useReducerExample" element={ <UseReducer /> } />
                     <Route path="useCallbackExample" element={ <UseCallback /> } />
+                    <Route path="useMemoExample" element={ <UseMemo /> } />
                     <Route path="*" element={ <NoPage /> } />
                 </Route>
             </Routes>
